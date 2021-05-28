@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   staff.init(
     {
-      user_name: DataTypes.STRING,
+      staff_name: DataTypes.STRING,
       email: DataTypes.STRING,
       password: DataTypes.STRING,
       is_admin: DataTypes.BOOLEAN,
