@@ -6,7 +6,7 @@ module.exports = {
     let list = [];
     for (let i = 0; i < 150; i++) {
       let data = {
-        user_name: faker.name.findName(),
+        staff_name: faker.name.findName(),
         email: faker.internet.email(),
         password: faker.internet.password(),
         is_admin: faker.datatype.number(1) === 1,
